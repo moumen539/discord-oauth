@@ -5,7 +5,7 @@ const app = express();
   
 const CLIENT_ID = "1449415004276133959";  
 const CLIENT_SECRET = "3wZY89h3mzPHFyQsYWTjOFK4IhOqvMfZ";  
-const REDIRECT_URI = "https://YOUR_RENDER_LINK.onrender.com/callback";  
+const REDIRECT_URI = "https://discord-oauth-a8h1.onrender.com";  
   
 app.get("/", (req, res) => {  
   const url =  
