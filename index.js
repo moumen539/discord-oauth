@@ -4,8 +4,8 @@ const axios = require("axios");
 const app = express();  
   
 const CLIENT_ID = "1449415004276133959";  
-const CLIENT_SECRET = "3wZY89h3mzPHFyQsYWTjOFK4IhOqvMfZ";  
-const REDIRECT_URI = "https://discord-oauth-a8h1.onrender.com";  
+const CLIENT_SECRET = "SeAz23yeMcJuwrlifLsgNniomsrbDt8Z";  
+const REDIRECT_URI = "https://discord-oauth-a8h1.onrender.com/callback";  
   
 app.get("/", (req, res) => {  
   const url =  
